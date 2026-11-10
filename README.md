@@ -1,16 +1,69 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Supermercado Felipe Hidalgo
 
-Currently, two official plugins are available:
+## Desarrollo Frontend II - PFY2202
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Evaluación Sumativa Semana 3 - Forma B
 
-## React Compiler
+### Descripción
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Aplicación web desarrollada con React para gestionar
+el inventario de un supermercado y simular un
+carrito de compras.
 
-## Expanding the Oxlint configuration
+### Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Listar los productos del inventario.
+- Agregar nuevos productos.
+- Filtrar artículos por categoría.
+- Consultar el detalle de cada producto.
+- Agregar productos al carrito de compras.
+- Aumentar y disminuir cantidades del carrito.
+- Actualizar automáticamente el stock disponible.
+- Calcular subtotales y total de la compra.
+- Adaptar la interfaz a dispositivos móviles.
+
+### Tecnologías utilizadas
+
+- React
+- Vite
+- React Router
+- Tailwind CSS
+- JavaScript
+- Git y GitHub
+- GitHub Actions
+- GitHub Pages
+
+### Instalación
+
+Clonar el repositorio:
+
+git clone https://github.com/Fhidalgos/supermercado-felipe-hidalgo-PFY2202.git
+
+Entrar a la carpeta del proyecto:
+
+cd supermercado-felipe-hidalgo-PFY2202
+
+Instalar las dependencias:
+
+npm install
+
+Iniciar el servidor de desarrollo:
+
+npm run dev
+
+### Sitio publicado
+
+https://fhidalgos.github.io/supermercado-felipe-hidalgo-PFY2202/
+
+### Consideraciones
+
+El inventario y el carrito utilizan el estado de React.
+Los cambios se mantienen durante la navegación, pero
+se reinician al recargar la aplicación.
+
+### Autor
+
+Felipe Hidalgo
+
+Desarrollo Frontend II - Duoc UC
